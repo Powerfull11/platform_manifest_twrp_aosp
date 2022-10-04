@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="TeamWin"
-            fetch="https://github.com/TeamWin"
+    <remote name="Powerfull11"
+            fetch="https://github.com/Powerfull11"
             review="https://gerrit.twrp.me"/>
 
     <remote name="LineageOS"
@@ -74,7 +74,3 @@
        <copyfile src="dummy/Android.mk" dest="system/libvintf/xsd/halManifest/vts/Android.mk" />
     </project>
 </manifest>
-
-
-
-
