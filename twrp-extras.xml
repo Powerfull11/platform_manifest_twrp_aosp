@@ -12,10 +12,7 @@
             review="https://review.lineageos.org"/>
 
     <remote name="github"
-            fetch="https://github.com"/>
-            
-    <remote name="gitlab"
-            fetch="https://gitlab.com"/>        
+            fetch="https://github.com"/>        
 
     <!-- TWRP lives in TeamWin android-11 (not AOSP!) -->
     <project path="bootable/recovery" name="RecoveryOF" remote="Powerfull11" revision="fox_11.0"/>
@@ -70,10 +67,7 @@
 
     <!-- Include lineage-tools for lzma support -->
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS"
-             revision="lineage-18.1"/>
-             
-    <!-- Include Ofox themes -->
-    <project path="bootable/recovery/gui/theme" name="OrangeFox/misc/theme" remote="gitlab" revision="master"/>         
+             revision="lineage-18.1"/>  
 
     <!-- Use TeamWin repos for full recovery compatibility -->
     <project path="vendor/twrp" name="android_vendor_twrp" remote="TeamWin" revision="android-11" >
